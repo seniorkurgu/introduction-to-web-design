@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <a href="index.html">Home</a>
+        <a href="about_us.html">About Us</a>
+        <a href="contact_us.html">Contact Us</a>
+    <h1 style="color: red;">Contact Us</h1>
+    <hr/>
+    <h2>Locations</h2>
+    <table>
+        <tr>
+            <th>Logo</th>
+            <th>Location</th>
+            <th>Opening Hour</th>
+            <th>Email Adress</th>
+            <th>Phone Number</th>
+        </tr>
+        <tr>
+            <td><img src="images/istanbul-logo.jpg" alt="istanbul logo" height="50" width="50"></td>
+            <td>Istanbul</td>
+            <td>9-5</td>
+            <td>istanbul@animal.com</td>
+            <td>02125478656</td>
+        </tr> 
+        <tr>
+            <td><img src="images/ankara-logo.png" alt="ankara logo" height="50" width="50"></td>
+            <td>Ankara</td>
+            <td>9-5</td>
+            <td>ankara@animal.com</td>
+            <td>02065478656</td>
+        </tr>
+        <tr>
+            <td><img src="images/samsun-logo.png" alt="samsun logo" height="50" width="50"></td>
+            <td>Samsun</td>
+            <td>9-5</td>
+            <td>samsun@animal.com</td>
+            <td>02555478656</td>
+        </tr>
+    </table>
+    <h2>General Inqiuries</h2>
+    <form action="confirmation.html">
+            <label for="fullname"> Name: *</label><br/>
+            <input required type="text" id="fullname" name="fullname"/>
+            <br/><br/>
+            <label for="email">Email Adress: *</label><br/>
+            <input required type="email" id="email" name="emailadress"/>
+            <br/><br/>
+            <label>Are you employed?</label><br/>
+            <input type="radio" value="Y" name="employed"/> Yes
+            <input type="radio" value="N" name="employed"/> No
+            <br/><br/>
+            <label for="inquiry">State your inquiry: *</label>
+            <br/>
+            <textarea required rows="10" maxlength="150" id="inquiry" name="inquiry"></textarea>
+            <br/>
+            <input type="submit">
+    </form>
+</body>
+</html>
